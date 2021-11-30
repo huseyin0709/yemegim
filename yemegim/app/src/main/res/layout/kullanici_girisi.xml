@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="3dp"
+    tools:context=".kullanicigirisi"
+    android:background="@drawable/arkaplan">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow  android:gravity="center|top"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="317dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="30dp"
+                app:layout_constraintBottom_toTopOf="@+id/imageView3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/yemegimbasligi" />
+        </TableRow>
+
+
+
+
+        <TableRow android:gravity="center|top"
+            android:layout_marginTop="50dp">
+
+            <EditText
+                android:id="@+id/kullanciadi_giris_edittext"
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/edittextarkalari"
+                android:ems="10"
+                android:hint="Kullanıcı Adınızı Giriniz"
+                android:inputType="textPersonName"
+                android:textAlignment="viewStart"
+                app:layout_constraintBottom_toTopOf="@+id/sifre_giris_edittext"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent" />
+        </TableRow>
+
+        <TableRow android:gravity="center|top">
+
+            <EditText
+                android:id="@+id/sifre_giris_edittext"
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittextarkalari"
+                android:ems="10"
+                android:hint="Sifrenizi Giriniz"
+                android:inputType="textPassword"
+                android:textAlignment="viewStart"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.514"
+                app:layout_constraintStart_toStartOf="parent" />
+        </TableRow>
+
+        <TableRow android:gravity="center|top">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="52dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="30dp"
+                android:onClick="girisyapbutonu"
+                android:text="GİRİŞ"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/imageView5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent" />
+        </TableRow>
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|top"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="309dp"
+                android:layout_height="41dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:onClick="kayitolbutonu"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/kayitolbutonu" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

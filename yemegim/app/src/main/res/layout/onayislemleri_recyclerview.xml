@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginBottom="3dp"
+    android:layout_marginTop="3dp">
+
+    <TextView
+        android:id="@+id/onaybekleyenkisi_textview"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="TextView"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/onayver_imageview"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="5dp"
+        app:srcCompat="@drawable/ic_baseline_check_24" />
+
+    <ImageView
+        android:id="@+id/onayverme_imageview"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="5dp"
+        app:srcCompat="@drawable/ic_baseline_delete_24" />
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "555670521554",
+    "project_id": "yemegim-30dac",
+    "storage_bucket": "yemegim-30dac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555670521554:android:c13f86190d9fe4457ecf0b",
+        "android_client_info": {
+          "package_name": "com.huso.yemegim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "555670521554-o200p3ggn7bshqueondp7sf5pov761nt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFa6-7YAGvTPDUUZqXfSCn1s-HGPYephc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "555670521554-o200p3ggn7bshqueondp7sf5pov761nt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
